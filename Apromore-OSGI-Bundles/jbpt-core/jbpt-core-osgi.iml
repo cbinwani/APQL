@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="jbpt-core-osgi-0.2.393.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.jbpt" bundleVersion="0.2.393" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Embed-Dependency" value="artifactId=jbpt-core" />
+          <property key="Embed-Transitive" value="false" />
+          <property key="Embed-Directory" value="WEB-INF/lib" />
+          <property key="Bundle-ClassPath" value=".,WEB-INF/lib/jbpt-core-0.2.393.jar,WEB-INF/classes" />
+          <property key="Bundle-Name" value="jbpt-core OSGI" />
+          <property key="Export-Package" value="org.jbpt.algo,org.jbpt.algo.graph,org.jbpt.algo.tree,org.jbpt.alignment,org.jbpt.graph,org.jbpt.graph.abs,org.jbpt.hypergraph,org.jbpt.hypergraph.abs,org.jbpt.throwable,org.jbpt.utils" />
+          <property key="Include-Resource" value="WEB-INF/lib/jbpt-core-0.2.393.jar=$MAVEN_REPOSITORY$/org/jbpt/jbpt-core/0.2.393/jbpt-core-0.2.393.jar" />
+          <property key="Embedded-Artifacts" value="WEB-INF/lib/jbpt-core-0.2.393.jar;g=&quot;org.jbpt&quot;;a=&quot;jbpt-core&quot;;v=&quot;0.2.393&quot;" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="osgiBundleFacetType" name="OSGi Bundle">
+      <configuration>
+        <properties />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.jbpt:jbpt-core:0.2.393" level="project" />
+  </component>
+</module>
+

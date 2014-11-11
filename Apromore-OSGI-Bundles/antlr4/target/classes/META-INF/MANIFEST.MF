@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1407134864732
+Build-Jdk: 1.7.0_55
+Built-By: corno
+Bundle-ClassPath: .,WEB-INF/lib/org.abego.treelayout.core-1.0.1.jar,WEB-
+ INF/lib/antlr4-annotations-4.3.jar,WEB-INF/lib/antlr4-runtime-4.3.jar,W
+ EB-INF/classes
+Bundle-ManifestVersion: 2
+Bundle-Name: Antlr4 Runtime Library
+Bundle-SymbolicName: org.antlr.antlr4-osgi
+Bundle-Version: 4.3.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=org.abego.treelayout.core|antlr4-annotation
+ s|antlr4-runtime
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: false
+Embedded-Artifacts: WEB-INF/lib/org.abego.treelayout.core-1.0.1.jar;g="o
+ rg.abego.treelayout";a="org.abego.treelayout.core";v="1.0.1",WEB-INF/li
+ b/antlr4-annotations-4.3.jar;g="org.antlr";a="antlr4-annotations";v="4.
+ 3",WEB-INF/lib/antlr4-runtime-4.3.jar;g="org.antlr";a="antlr4-runtime";
+ v="4.3"
+Export-Package: org.antlr.v4.runtime;version="4.3.0";uses:="org.antlr.v4
+ .runtime.atn,org.antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc,org.ant
+ lr.v4.runtime.tree,org.antlr.v4.runtime.tree.pattern",org.antlr.v4.runt
+ ime.atn;version="4.3.0";uses:="org.antlr.v4.runtime,org.antlr.v4.runtim
+ e.dfa,org.antlr.v4.runtime.misc",org.antlr.v4.runtime.dfa;version="4.3.
+ 0";uses:="org.antlr.v4.runtime.atn",org.antlr.v4.runtime.misc;version="
+ 4.3.0";uses:="org.antlr.v4.runtime",org.antlr.v4.runtime.tree;version="
+ 4.3.0";uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.misc",org.antlr
+ .v4.runtime.tree.gui;version="4.3.0";uses:="org.antlr.v4.runtime.tree",
+ org.antlr.v4.runtime.tree.pattern;version="4.3.0";uses:="org.antlr.v4.r
+ untime,org.antlr.v4.runtime.misc,org.antlr.v4.runtime.tree",org.antlr.v
+ 4.runtime.tree.xpath;version="4.3.0";uses:="org.antlr.v4.runtime,org.an
+ tlr.v4.runtime.atn,org.antlr.v4.runtime.dfa,org.antlr.v4.runtime.tree"
+Tool: Bnd-2.1.0.20130426-122213

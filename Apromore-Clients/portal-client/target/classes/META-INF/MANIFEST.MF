@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409292728127
+Build-Jdk: 1.7.0_55
+Built-By: corno
+Bundle-ClassPath: .,jaxb2-basics-runtime-0.5.3.jar
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apromore Portal Client
+Bundle-SymbolicName: org.apromore.portal-client
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=jaxb2-basics-runtime
+Embed-Transitive: true
+Embedded-Artifacts: jaxb2-basics-runtime-0.5.3.jar;g="org.jvnet.jaxb2_co
+ mmons";a="jaxb2-basics-runtime";v="0.5.3"
+Export-Package: org.apromore.portal.client;uses:="org.apromore.model,org
+ .springframework.ws.client.core,javax.xml.bind,org.slf4j";version="1.1.
+ 0"
+Import-Bundle: org.springframework.aop;bundle-version="[3.1.0,4.0)",org.
+ springframework.web;bundle-version="[3.1.0,4.0)",org.springframework.be
+ ans;bundle-version="[3.1.0,4.0)",org.springframework.context;bundle-ver
+ sion="[3.1.0,4.0)",org.springframework.ws;version="[2.1.0.RELEASE,2.1.0
+ .RELEASE]",org.springframework.ws.support;version="[2.1.0.RELEASE,2.1.0
+ .RELEASE]",org.springframework.ws.xml;version="[2.1.0.RELEASE,2.1.0.REL
+ EASE]",com.springsource.org.apache.httpcomponents.httpclient;version="[
+ 4.2.1,4.2.1]",com.springsource.org.apache.httpcomponents.httpcore;versi
+ on="[4.2.1,4.2.1]"
+Import-Package: javax.xml.bind;version="[2.2,3)",javax.xml.bind.annotati
+ on.adapters;version="[2.2,3)",javax.xml.namespace,org.apromore.model;ve
+ rsion="[1.1,2)",org.slf4j;version="[1.7,2)",org.springframework.oxm.jax
+ b;version="[3.1,4)",org.springframework.ws.client.core;version="[2.1,3)
+ ",org.springframework.ws.soap;version="[2.1,3)",org.springframework.ws.
+ soap.saaj;version="[2.1,3)",org.springframework.ws.transport.http;versi
+ on="[2.1,3)",org.w3c.dom,org.xml.sax
+Tool: Bnd-1.50.0

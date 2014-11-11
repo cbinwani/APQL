@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="postgresql-osgi" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.3-1101-jdbc41" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.31" level="project" />
+    <orderEntry type="module" module-name="themis-osgi" />
+    <orderEntry type="library" name="Maven: org.themis:themis:1.0" level="project" />
+    <orderEntry type="module" module-name="ini4j-osgi" />
+    <orderEntry type="library" name="Maven: org.ini4j:ini4j:0.5.2" level="project" />
+    <orderEntry type="module" module-name="antlr4-runtime-osgi" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-annotations:4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.jbpt:jbpt-petri:0.2.393" level="project" />
+    <orderEntry type="library" name="Maven: org.jbpt:jbpt-core:0.2.393" level="project" />
+    <orderEntry type="library" name="Maven: org.jbpt:jbpt-deco:0.2.393" level="project" />
+    <orderEntry type="library" name="Maven: org.jbpt:jbpt-bp:0.2.393" level="project" />
+    <orderEntry type="library" name="Maven: org.pql:pql:1.0" level="project" />
+    <orderEntry type="module" module-name="json-osgi" />
+    <orderEntry type="library" name="Maven: org.json:json:20090211" level="project" />
+  </component>
+</module>
+

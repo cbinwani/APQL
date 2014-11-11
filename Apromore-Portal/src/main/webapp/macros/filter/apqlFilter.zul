@@ -1,0 +1,16 @@
+<?component name="FolderTree" macroURI="/macros/folderTree.zul" ?>
+
+<window id="queryWindow" width="1300px" height="700px" closable="true" position="center">
+
+        <vbox>
+            <applet id="apql"
+					codebase="applets/"
+					archive="APQL.jar"
+					code="com.apql.Apql.APQLApplet.class"
+					mayscript="true"
+					width="1300px" height="700px"
+					/>
+
+        </vbox>
+	
+</window>

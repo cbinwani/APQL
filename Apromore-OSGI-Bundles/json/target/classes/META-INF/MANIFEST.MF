@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1409288737954
+Build-Jdk: 1.7.0_55
+Built-By: corno
+Bundle-ClassPath: .,WEB-INF/lib/json-20090211.jar,WEB-INF/classes
+Bundle-ManifestVersion: 2
+Bundle-Name: json OSGI
+Bundle-SymbolicName: org.json-osgi
+Bundle-Version: 20090211.0.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=json
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: false
+Embedded-Artifacts: WEB-INF/lib/json-20090211.jar;g="org.json";a="json";
+ v="20090211"
+Export-Package: org.json;version="1.0.0"
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1406075163999
+Build-Jdk: 1.7.0_55
+Built-By: corno
+Bundle-ClassPath: .,WEB-INF/lib/themis-1.0.jar,WEB-INF/classes
+Bundle-ManifestVersion: 2
+Bundle-Name: Themis OSGI
+Bundle-SymbolicName: org.themis-osgi
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=themis
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: false
+Embedded-Artifacts: WEB-INF/lib/themis-1.0.jar;g="org.themis";a="themis"
+ ;v="1.0"
+Export-Package: org.themis;version="1.0.0",org.themis.ir;uses:="org.them
+ is";version="1.0.0",org.themis.ir.etvsm;uses:="org.themis,org.themis.ir
+ ";version="1.0.0",org.themis.ir.vsm;uses:="org.themis.ir";version="1.0.
+ 0",org.themis.pp;uses:="org.themis";version="1.0.0",org.themis.util;ver
+ sion="1.0.0"
+Import-Package: org.postgresql.ds.jdbc23,org.postgresql.xa.jdbc4,org.pos
+ tgresql.xa,org.postgresql.fastpath,org.postgresql.translation,org.postg
+ resql.core.types,org.postgresql,org.postgresql.ds.jdbc4,org.postgresql.
+ core.v3,org.postgresql.core.v2,org.postgresql.jdbc2,org.postgresql.jdbc
+ 3g,org.postgresql.geometric,org.postgresql.core,org.postgresql.ssl.jdbc
+ 4,org.postgresql.gss,org.postgresql.jdbc4.array,org.postgresql.util,org
+ .postgresql.jdbc2.optional,org.postgresql.copy,org.postgresql.jdbc4,org
+ .postgresql.largeobject,org.postgresql.xa.jdbc3,org.postgresql.ds,org.p
+ ostgresql.ssl,org.postgresql.jdbc3,org.postgresql.ds.common
+Tool: Bnd-2.1.0.20130426-122213
